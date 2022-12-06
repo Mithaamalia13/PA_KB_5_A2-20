@@ -24,7 +24,7 @@ Berikut adalah contoh kualitat lemon yang buruk dari dataset:
 | <img src="https://github.com/Mithaamalia13/PA_KB_5_A2-20/blob/main/coleccting.PNG" width="250"> | <img src="https://github.com/Mithaamalia13/PA_KB_5_A2-20/blob/main/collectinggood.PNG" width="250">|
 
 # **DATA PREPROCESSING**
-TRAINING
+**TRAINING**
 -	Pada training terdapat rescale dimana untuk mempercepat training
 -	Horizontal flip untuk membaca gambar jika dalam keadaan terbalik
 -	Juga terdapat pengaturan brightness mendeteksi jika gambar redup atau terang nantinya
@@ -41,6 +41,8 @@ TEST
 Menampilkan gambar hasil augmentasi dengan ukuran pada setiap gambar 64, 150, 150, 3. Di sini menggunakan temp untuk mengubah float menjadi int indeks karena sebelumnya masih float (float tidak bisa digunakan).
 Gambar akan muncul sebagai berikut:
 
+![stack Overflow](https://github.com/Mithaamalia13/PA_KB_5_A2-20/blob/main/data%20visualisasi.PNG)
+
 **TRAINING**
 -	Pada training terdapat rescale dimana untuk mempercepat training
 -	Horizontal flip untuk membaca gambar jika dalam keadaan terbalik
@@ -56,12 +58,20 @@ Gambar akan muncul sebagai berikut:
 
 **Jumlah Dataset Train, Test, dan Val**
 Berikut adalah jumlah gambar dataset keseluruhan, kualitas lemon dan jumlah data dibedakan menjadi dua warna.
+
+![stack Overflow](https://github.com/Mithaamalia13/PA_KB_5_A2-20/blob/main/Jumlah%20Gambar%20Dataset%20Keseluruhan.png)
+
 **Jumlah Data Train**
 Berikut adalah jumlah gambar dataset Train, kualitas lemon dan jumlah data dibedakan menjadi dua warna.
+![stack Overflow](https://github.com/Mithaamalia13/PA_KB_5_A2-20/blob/main/Jumlah%20Gambar%20Dataset%20Train.png)
+
 **Jumlah Data Test**
 Berikut adalah jumlah gambar dataset Test, kualitas lemon dan jumlah data dibedakan menjadi dua warna.
+![stack Overflow](https://github.com/Mithaamalia13/PA_KB_5_A2-20/blob/main/Jumlah%20Gambar%20Dataset%20Test.png)
+
 **Jumlah Data Validation**
 Berikut adalah jumlah gambar dataset validation, kualitas lemon dan jumlah data dibedakan menjadi dua warna.
+![stack Overflow](https://github.com/Mithaamalia13/PA_KB_5_A2-20/blob/main/Jumlah%20Gambar%20Dataset%20Validation.png)
 
 **Classification report dan Confusion Matrix**
 Berikut terlihat hasil confusion matrix dan classification matrix berdasarkan hasil dari data set. Berikut gambarnya: 
