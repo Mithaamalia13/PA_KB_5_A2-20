@@ -114,7 +114,7 @@ Berikut terlihat hasil confusion matrix dan classification matrix berdasarkan ha
 Dan berikut adalah gambar akurasi dari evaluate model: 
 
 <p align="center">
-  <img src="https://github.com/Mithaamalia13/PA_KB_5_A2-20/blob/main/evaluate.PNG" />
+  <img src="https://github.com/Mithaamalia13/PA_KB_5_A2-20/blob/main/Evaluate.PNG" />
 </p>
 
 # **PREDIKSI** <a class="anchor" id="chapter8"></a>
