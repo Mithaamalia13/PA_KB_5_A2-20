@@ -1,17 +1,29 @@
 # **TEMA     : KLASIFIKASI KUALITAS LEMON🍋**
+---
+### Table of Contents
 
-# **KELOMPOK : 5 A2**
+* [Anggota Kelompok](#chapter1)
+* [About Dataset](#chapter2)
+* [About Project](#chapter3)
+* [Data Collecting](#chapter4)
+* [Data Preprocessing](#chapter5)
+* [Data Visualisasi & Analysis](#chapter6)
+* [Modelling](#chapter7)
+* [Prediksi](#chapter8)
+
+---
+# **KELOMPOK : 5 A2** <a class="anchor" id="chapter1"></a>
 1.   **2009106026 SULHAIRAH** (Data Modelling & Evaluasi)
 2.   **2009106028 MITHA AMALIA** (Data Collecting & Preprocessing)
 3.   **2009106030 PATRICIA CHANDRA** (Visualisasi & Confuision Matrix)
 
-# **ABOUT DATASET**
+# **ABOUT DATASET** <a class="anchor" id="chapter2"></a>
 Lemon dataset telah disiapkan untuk menyelidiki kemungkinan untuk mengatasi masalah kontrol kualitas buah. Ini berisi 2040 gambar (300 x 300 piksel). Gambar lemon diambil pada permukaan beton. Dataset berisi gambar lemon berkualitas buruk dan baik di bawah kondisi pencahayaan yang sedikit berbeda (semua di bawah sinar matahari).
 
-# **ABOUT PROJECT**
+# **ABOUT PROJECT** <a class="anchor" id="chapter3"></a>
 Project ini mendeteksi kualitas lemon dalam kategori baik atau buruknya lemon dengan gambar, berdasarkan dataset dan luar dataset.
 
-# **DATA COLLECTING**
+# **DATA COLLECTING** <a class="anchor" id="chapter4"></a>
 Dalam data collecting tempat menyimpan database terdapat dalam google drive.
 -	Gambar yang bad quality berjumlah 951 gambar
 -	Gambar yang good quality berjumlah 1125 gambar
@@ -24,7 +36,7 @@ Berikut adalah contoh kualitat lemon yang buruk dari dataset:
 | <img src="https://github.com/Mithaamalia13/PA_KB_5_A2-20/blob/main/coleccting.PNG" width="250"> | <img src="https://github.com/Mithaamalia13/PA_KB_5_A2-20/blob/main/collectinggood.PNG" width="250">|
 
 
-# **DATA PREPROCESSING**
+# **DATA PREPROCESSING** <a class="anchor" id="chapter5"></a>
 **TRAINING**
 -	Pada training terdapat rescale dimana untuk mempercepat training
 -	Horizontal flip untuk membaca gambar jika dalam keadaan terbalik
@@ -38,7 +50,7 @@ VALIDATION
 TEST
 -	Pada test ini terdapat target size, batch dan class mode seperti yang digunakan sebelumnya pada training
 
-# **DATA VISUALISASI & ANALYSIS**
+# **DATA VISUALISASI & ANALYSIS** <a class="anchor" id="chapter6"></a>
 Menampilkan gambar hasil augmentasi dengan ukuran pada setiap gambar 64, 150, 150, 3. Di sini menggunakan temp untuk mengubah float menjadi int indeks karena sebelumnya masih float (float tidak bisa digunakan).
 Gambar akan muncul sebagai berikut:
 
@@ -93,7 +105,7 @@ Berikut terlihat hasil confusion matrix dan classification matrix berdasarkan ha
   <img src="https://github.com/Mithaamalia13/PA_KB_5_A2-20/blob/main/confuison.PNG" />
 </p>
 
-# **MODEL**
+# **MODEL** <a class="anchor" id="chapter7"></a>
   Model yang kami gunakan di sini adalah image processing dengan alogaritma CNN.  Di sini kami menggunakan activation relu sebagai hidden layer dan sigmoid sebagai output layers.  
 -	Model compile loss = 'binary_crossentropy' dikarenakan output hanya dua
 -	optimizer='rmsprop', menggunakan rmsprop dikarenakan akurasi lebih tinggi dari adam (telah dicoba)
@@ -105,7 +117,7 @@ Dan berikut adalah gambar akurasi dari evaluate model:
   <img src="https://github.com/Mithaamalia13/PA_KB_5_A2-20/blob/main/evaluate.PNG" />
 </p>
 
-# **PREDIKSI**
+# **PREDIKSI** <a class="anchor" id="chapter8"></a>
 Memprediksi gambar lemon bad atau good. Menampilkan actual dan hasil prediksi dari masing- masing gambar dalam dataset. Berikut gambarnya:
 
 <p align="center">
