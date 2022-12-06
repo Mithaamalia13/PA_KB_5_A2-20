@@ -89,6 +89,10 @@ Berikut adalah jumlah gambar dataset validation, kualitas lemon dan jumlah data 
 **Classification report dan Confusion Matrix**
 Berikut terlihat hasil confusion matrix dan classification matrix berdasarkan hasil dari data set. Berikut gambarnya: 
 
+<p align="center">
+  <img src="https://github.com/Mithaamalia13/PA_KB_5_A2-20/blob/main/confuison.PNG" />
+</p>
+
 # **MODEL**
   Model yang kami gunakan di sini adalah image processing dengan alogaritma CNN.  Di sini kami menggunakan activation relu sebagai hidden layer dan sigmoid sebagai output layers.  
 -	Model compile loss = 'binary_crossentropy' dikarenakan output hanya dua
@@ -97,9 +101,16 @@ Berikut terlihat hasil confusion matrix dan classification matrix berdasarkan ha
 **Evaluate**
 Dan berikut adalah gambar akurasi dari evaluate model: 
 
+<p align="center">
+  <img src="https://github.com/Mithaamalia13/PA_KB_5_A2-20/blob/main/evaluate.PNG" />
+</p>
+
 # **PREDIKSI**
 Memprediksi gambar lemon bad atau good. Menampilkan actual dan hasil prediksi dari masing- masing gambar dalam dataset. Berikut gambarnya:
-![stack Overflow](https://github.com/Mithaamalia13/PA_KB_5_A2-20/blob/main/prediksi.PNG)
+
+<p align="center">
+  <img src="https://github.com/Mithaamalia13/PA_KB_5_A2-20/blob/main/prediksi.PNG" />
+</p>
 
 Memprediksi gambar yang dinputkan secara manual atau satu persatu. Berikut adalah gambarnya: 
 
