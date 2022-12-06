@@ -19,6 +19,8 @@
 
 # **ABOUT DATASET** <a class="anchor" id="chapter2"></a>
 Lemon dataset telah disiapkan untuk menyelidiki kemungkinan untuk mengatasi masalah kontrol kualitas buah. Ini berisi 2040 gambar (300 x 300 piksel). Gambar lemon diambil pada permukaan beton. Dataset berisi gambar lemon berkualitas buruk dan baik di bawah kondisi pencahayaan yang sedikit berbeda (semua di bawah sinar matahari).
+<br>Link dataset awal : https://drive.google.com/drive/folders/1E19JJB3Fgi17nAW36ISpRJE5TVFzhO0e?usp=share_link
+<br>Link dataset split folder : https://drive.google.com/drive/folders/1vZV1c5IS9o9p2FC0qTE5zL6aYOUF0Qpc?usp=share_link
 
 # **ABOUT PROJECT** <a class="anchor" id="chapter3"></a>
 Project ini mendeteksi kualitas lemon dalam kategori baik atau buruknya lemon dengan gambar, berdasarkan dataset dan luar dataset.
